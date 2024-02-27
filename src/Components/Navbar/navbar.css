@@ -1,0 +1,87 @@
+@import url("https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css");
+.nav{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: black;
+    padding: 8px;
+    color: white;
+}
+.logo{
+    position: relative;
+    top:7px;
+    padding-left: 5px;
+    float: left;
+}
+.logo span{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bar{
+    display: inline;
+}
+.home{
+    color: white;
+    text-decoration: none;
+}
+.home:hover{
+    color: white;
+    text-decoration: none;
+}
+.home:visited{
+    color: white;
+    text-decoration: none;
+}
+.home::after{
+    color: white;
+    text-decoration: none;
+}
+.home:active{
+    color: white;
+    text-decoration: none;
+}
+.bar li{
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    margin-right: 20px;
+    position: relative;
+    top: 15px;
+    display: inline;
+}
+.rightie ul{
+    display: inline;
+}
+.rightie li{
+    position: relative;
+    bottom: 12px;
+    margin-left: 40px;
+    float: right;
+    display: inline;
+    list-style-type: none;
+}
+.glyphicon{
+    text-decoration: none;
+    position: relative;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}  
+.ff{
+    padding-right: 30px;
+}
+.dropdown{
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    z-index: 500;
+    padding: 10px;
+    border-radius: 4px;
+}

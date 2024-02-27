@@ -1,0 +1,82 @@
+.flash{
+    background-color: rgb(235, 183, 255);
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.puma img{
+ width: 100%;
+ height: 500px;
+}
+.shoe-con{
+    grid-template-columns: repeat(3, minmax(310px, 1fr));
+    position: relative;
+    top: 30px;
+    row-gap: 40px;
+    display: grid;
+    margin-left: 10%;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+}
+.card2{
+    margin-right: 60px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    height: 370px;
+    width: 310px;
+   
+}
+.card2 img{
+    margin-top: 1%;
+    margin-left: 0%;
+    width: 300px;
+    height: 300px;
+}
+.desc2{
+    font-family:Verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+}
+.desc2 span{
+    font-family:Verdana, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.desc2 s{
+    color: red;
+}
+
+.card2:hover{
+    color: black;
+    box-shadow: 1px 1px 5px,-1px -1px 5px;
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+@media (max-width:1000px){
+    .shoe-con{
+        grid-template-columns: repeat(2, minmax(100px, 3fr));
+        position: relative;
+        top: 30px;
+        display: grid;
+        grid-template-rows:repeat(2, minmax(100px, 1fr));
+        justify-content: space-evenly;
+        padding-bottom: 10%;
+        margin-left: 7.5%;
+    }
+}
+
+.trnd{
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

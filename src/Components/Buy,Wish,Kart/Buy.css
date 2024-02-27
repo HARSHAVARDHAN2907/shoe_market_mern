@@ -1,0 +1,63 @@
+.pro-img{
+    margin-left: 17%;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.pro-container{
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-areas: "a b";
+}
+.pro-side1{
+    grid-area: a;
+    display: flex;
+    flex-direction: row;
+}
+.pro-side2{
+    grid-area: b;
+    display: flex;
+    flex-direction: row;
+}
+
+.pro-box input[type="tel"]{
+    width: 533px;
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.pro-box textarea{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    resize: none;
+}
+.pro-box input[type="radio"]{
+    margin-top: 5.5%;
+}
+
+.pro-span{
+    font-size: 20px;
+    padding-right: 5%;
+}
+.pro-button{
+    width: 533px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.pro-button:hover{
+    width: 533px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
